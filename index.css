@@ -1,0 +1,50 @@
+/* все элементы */
+
+* {  
+    box-sizing: border-box;
+}
+html{
+
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 100px;
+    background: url(img/BG.png) no-repeat;
+    background-size: cover;
+}
+/* площадка где все действия */
+.field {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #3BF1A5;
+}
+
+/* одна ячейка */
+.excel {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+.bodyn {
+    background: url(img/body0.png);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.head {
+    background: url(img/head.png);
+    background-size: cover;
+}
+
+.nft {
+    background: url(img/nft.png);
+    background-size: cover;
+    border-radius: 50%;
+}
